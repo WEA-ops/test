@@ -7,7 +7,7 @@ export default async function Page() {
 
   return (
     <main>
-      <h2>News</h2>
+      <h2>Newsite</h2>
 
       {posts.map((post: any) => (
         <Link
