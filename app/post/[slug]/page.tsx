@@ -1,6 +1,8 @@
 import { client } from "../../../sanity/client";
 import { POST_QUERY } from "../../../sanity/lib/queries";
 
+export const revalidate = 60;
+
 export default async function PostPage({
   params,
 }: {
